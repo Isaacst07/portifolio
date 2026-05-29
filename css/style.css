@@ -13,11 +13,8 @@
 
   --text-white: #ffffff;
   --text-muted: #8888aa;
-  --text-label: #9b59b6;
 
   --accent-purple: #a855f7;
-  --dot-pink: #e040fb;
-  --dot-cyan: #00bcd4;
 
   --border-purple: #6d28d9;
   --border-blue: #1e3a5f;
@@ -48,7 +45,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: clamp(2.6rem, 4.5vw, 4.2rem);
+  font-size: clamp(2rem, 3.2vw, 3.2rem);
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 1.6rem;
@@ -75,8 +72,8 @@ body {
 }
 
 .fundo-oval {
-  width: clamp(300px, 32vw, 460px);
-  height: clamp(300px, 32vw, 460px);
+  width: clamp(220px, 24vw, 360px);
+  height: clamp(220px, 24vw, 360px);
   background-color: var(--bg-card-purple);
   border-radius: 50%;
   display: flex;
